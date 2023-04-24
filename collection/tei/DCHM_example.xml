@@ -3,24 +3,47 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Transcription of Chapter 1 of Ammarnasbygdens</title>
+            <title>Transcription of Chapter 1 of Ammarnäsbygdens historia (1803-2008)</title>
             <respStmt>
-               <name>Emilie Lindstrom</name>
+               <name>Emilie Lindström</name>
                <name>Sasha Spirkina</name>
-               <resp> Transcribed and encoded by</resp>
+               <resp>Transcribed and encoded by</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
             <p>Do not copy, cite, or distribute without permission of the authors</p>
+            <p>Published as a website through GitHub as part of a project work for the course Digitalising Cultural Heritage Material at Borås University</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Print version of Ammarnasbygens, transcribed by Sasha Spirkina &amp; Emilie Lindstrom</p>
+            <bibl>
+               <title>Ammarnäsbygdens historia 1803-2008 : nedtecknad av nybyggarnas ättlingar</title>
+               <author>Ammarnäs hembygdsförening</author>
+               <publisher>Ammarnäs hembygdsförening</publisher>
+            </bibl>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
+      <encodingDesc>
+         <projectDesc><p>The goal of the project is to encode and publish Chapter 1 of the book "Ammarnäsbygdens historia 1803-2008 : nedtecknad av nybyggarnas ättlingar".</p></projectDesc>
+         <samplingDecl><p>Chapter 1 of the book has been sampled to fit the scope of the project assignment. </p></samplingDecl>
+         <editorialDecl>
+            <hyphenation><p>Hyphens have been transcribed as they appear.</p></hyphenation>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition xml:id="r-larger"
+               scheme="css">font-size: larger;</rendition>
+            <rendition xml:id="r-italic"
+               scheme="css">font-style: italic;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="swe">Swedish</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
      <text>
       <body>
          <head>Kapitel 1 
