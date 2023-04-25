@@ -30,6 +30,10 @@
          <samplingDecl><p>Chapter 1 of the book has been sampled to fit the scope of the project assignment. </p></samplingDecl>
          <editorialDecl>
             <hyphenation><p>Hyphens have been transcribed as they appear.</p></hyphenation>
+            <correction>
+               <p> Where spelling mistakes made by the authors occur they have been
+                  indicated using the <gi>sic</gi> element but the original spelling has been maintained .</p>
+            </correction>
          </editorialDecl>
          <tagsDecl>
             <rendition xml:id="r-larger"
@@ -47,231 +51,232 @@
    <text>
       <body>
          <div1 type="chapter" n="1">
-         <head>Kapitel 1 
-            Fjällägenheter 
-         </head>
-         <div2 type="section">
-         <head>1. Allmänt</head>
-         <p>Utstakandet av fjällägenheter var troligen i många fall ett sätt att legalisera redan 
-            <lb/>befintlig, olaga bebyggelse på villkor som kunde minska det intrång som samerna 
-            <lb/>ansåg bosättningen kunde medföra för deras renskötsel. Den som försökte slå sig 
-            <lb/>ner i renbeteslandet var oftast inte välkommen. Det berättas bl.a att Johan Anton 
-            <lb/>Johansson höll på att bli vräkt från sitt ställe i Nuolpen.
-         </p>
-         <p> 
-            <lb/>Fjällägenheterna låg oftast långt in i ödemarken, långt från annan bebyggelse 
-            <lb/>och vägar men alltid med tillgång till fiskevatten. Fisket var ett livsvillkor för lä­-
-            <lb/>genhetsägaren men också för de bofasta i lappmarken. Både för samerna och för
-            <lb/>andra som vandrade i fjällen, blev fjällägenheterna en tillflykt. Där kunde de få 
-            <lb/>vila, värme och mat efter långa och tröttande vandringar, ofta i oväder och kyla. 
-            <lb/>Många berättar med stor tacksamhet om hur vänligt mottagna de blivit just i de avlägset belägna fjällgårdarna. 
-         </p>
-         <facsimile>
-            <surface>
-               <figure>
-                  <label>Page 10 photograph</label>
-                  <figDesc>
-                     A photograph of Hilder och Johan Nilsson i Rödingvik
-                  </figDesc>
-                  <graphic/>
-                  <ab type="caption">Hildur och Johan Nilsson i Rödingvik</ab>
-                  <ab type="caption">Foto: Axel Nordström</ab>
-               </figure>
-            </surface>
-         </facsimile>
-         <p> 
-            <lb/>I området närmast Ammarnäs har funnits sju fjällägenheter: Rödingbäck, Nu­-
-            <lb/>olpen, Matsojokk, Dåraudden, Aitelnasfors, Bissaliden och Örnbo. Längst in i 
-            <lb/>Tjulträskdalen ligger Nuolpen. Där bodde Johan Anton Johansson med sin fa-
-            <lb/>­milj. Lägenheten upprustades till norrländsk fjällägenhet och arrenderades un-
-            <lb/>­der många år av hans son Enar Johansson. 
-         </p>
-         <pb/><fw type="pageNum" place="bottom">10</fw>
-         <p>
-            <lb/>Matsojokk slog Anders Nilsson och hans hustru Sara sig ner när de lämnade 
-            <lb/>renskötseln. Deras svärson Fritiof Andersson, övertog lägenheten efter dem men 
-            <lb/>överlät den sedan till Lantbruksstyrelsen. Axel Nilsson hade fjällägenheten Då­-
-            <lb/>raudden men flyttade ganska snart ner till Ammarnäs och lät Lantbruksstyrel­-
-            <lb/>sen inlösa lägenheten. 
-         </p>
-         <p>
-            <lb/>Nils Sjulsson hade fjällägenheten Rödingbäck. Hans föräldrar bodde i Mjölk­-
-            <lb/>bäcken i Tärna socken. Själv var han lappdräng i tolv år. När dränglönen var som 
-            <lb/>högst hade han nittio kronor om året. Han var känd som en duktig vargrännare. 
-            <lb/>Han gifte sig med Ulla som var bördig från Noulpen och bosatte sig där den första 
-            <lb/>tiden. Johan Nilsson i Rödingvik, son till Nils Sjulsson, berättar en händelse som 
-            <lb/>föräldrarna talat om: 
-         </p>
-         <p>
-            <lb/>Föräldrarna var ganska nygifta och en av nybyggarna från Ammarnäs kom och 
-            <lb/>skulle hjälpa Nils Sjulsson att bygga en lada. Ulla tyckte att hennes enda gryta 
-            <lb/>var för liten att laga mat i åt två karlar, så hon gick över till sin granne Margareta 
-            <lb/>Nilsson för att låna en större gryta. Karlarna väntade på maten och tyckte att hon 
-            <lb/>blev onödigt länge borta. När hon kom tillbaka berättade hon att hon hade varit 
-            <lb/>tvungen att stanna en stund hos Margareta. Anledningen var att Margareta hade 
-            <lb/>fött en son och var ensam hemma i kåtan. Detta hände i <date when="1898-10">oktober 1898</date>. 
-         </p>
-         <p>
-            <lb/>Nils Sjulsson köpte först ett stycke av ett kronohemman men lät sedan detta köp 
-            <lb/>gå tillbaka och började odla och bygga i Rödingvik i stället, där han fick fjällägen-
-            <lb/>­hetskontrakt <date when="1918">1918</date>.  
-         </p>
-         <p>
-            <lb/>Detta ställe ligger underbart vackert på sluttningen mot Tjulträsket och med ut­-
-            <lb/>sikt mot fjällen på andra sidan sjön. Hemmet är trivsamt och alla familjemedlem­-
-            <lb/>marna har varit gästfria och trevliga, varför många turister sökt sig dit gång på 
-            <lb/>gång. De gamla är borta sedan många år liksom deras barn Hildur och Johan som 
-            <lb/>tog över efter föräldrarna. Johan Nilsson hade friköpt stället och numera förvaltas 
-            <lb/>det av hans syskonbarn Ulla Karin Olofsson. 
-            <lb/>Erik Björk har fjällägenheten Aitelnasfors. Han var son till Sjulsson och omta-
-            <lb/>­las i berättelsen om Aitelnas. Fjällägenheten Örnbo har fått ett eget kapitel i vår 
-            <lb/>historik. 
-         </p>
-         <p>
-            <lb/>När Ammarnäsborna byggde ett andelskraftverk i Bissasbäcken <date when="1943">1943</date> anställdes 
-            <lb/>Linus Strömgren att sköta detta när det togs i bruk. För att kunna bo i närheten av kraftverket, sökte och fick han en fjällägenhet som han kallade Bissaliden. På 
-            <lb/>grund av sjukdom måste han lämna sitt arbete i kraftverket och flyttade ner till 
-            <lb/>byn igen. 
-         </p>
-         <p>
-            <lb/>Noulpen beboddes så sent som till vintern <date when="2004">2004</date> av Enar Johansson. Efter hans 
-            <lb/>död i <date when="2005-02">februari 2005</date> har hans arvingar övertagit och förvaltar nu Noulpen. En av 
-            <lb/>hans systrar, Anna Ericsson, berättar att deras släkt har funnits i Tjulträskda-
-            <lb/>­len ända sedan <date when="1600">1600-talet</date>. Hon berättar om sin mormor och morfar, Anna Stina 
-            <lb/>Nilsdotter och Johannes Isaksson. De kom från vardera södra resp. norra delen 
-            <lb/>av Tjulträsk. 
-         </p>
-         <p>
-            <lb/>När Johannes dog förordnade staten renbeteslandet till Anna Stinas bror efter­-
-            <lb/>som hon som kvinna inte fick äga renar. 
-            <pb/><fw type="pageNum" place="bottom">11</fw>
-         </p>
-         <p>Det gjorde att hon fick försöka livnära sig på det lilla jordbruk de hade haft med
-            <lb/>3-4 kor, ett par getter och några får. Rovdjuren härjade och björn var vanlig i trak­-
-            <lb/>ten. Anna har fått sig berättat att en sommar hade björnen tagit deras skälltacka. 
-            <lb/>Om de hade haft råd med en getare (någon som vaktade boskapen vilket ofta var 
-            <lb/>de större barnens uppgift) då hade det förmodligen inte hänt. De var sju syskon 
-            <lb/>som växte upp i Nuolpen, modern hette Svea och fadern Johan Anton Johansson 
-            <lb/>från Björkfjället. 
-         </p>
-         <p>Sommartid bodde de i två kåtor. Där röktes fisk som hängdes upp i reppen (rök-
-            <lb/>hålet i kåtan) och kokades juomo, ett slags kräm som kokades av syragräs. Sma-
-            <lb/>ken påminner lite om rabarber, det är mycket vitaminrikt och uppskattat av både 
-            <lb/>stora och små. Varje vår lades nytt ris i kåtorna. Det skulle vara nyutslaget björk­-
-            <lb/>ris så att det blev mjukt på golvet. På samiska kallades det att darj kåtan. 
-            <lb/>När Anna växte upp fick hon inte gå i skolan i Dårraudden. Det var ju en same­-
-            <lb/>skola för barn med renägande föräldrar, och eftersom hennes föräldrar inte hörde 
-            <lb/>till dessa fick hon gå i Ammarnäs skola. Första åren som inhyst i Antes och där-
-            <lb/>efter när Arbetsstugan stod klar bodde hon där under sin resterande skolgång. 
-            <lb/>Numera bor Anna i Ammarnäs. 
-         </p>
-         </div2>
-         <div2 type="section">
-         <head>2. Fjällägenheten Örnbo </head>
-         <p>Högt uppe i liden på norra sidan Gautsträsket, ligger fjällägenheten Örnbo. Den 
-            <lb/>ligger cirka fyra kilometer från närmaste granne. Utsikten därifrån över sjön Gaut­-
-            <lb/>sträsket och skogen är oförglömlig. 
-         </p>
-         <p>Sedan fjällägenhetsägaren Jonas Andersson dog <date when="1952">1952</date> har 
-            <lb/>Örnbo varit öde. Nu har domänverket med AMS-medel reparerat stugan, ladugår-­
-            <lb/>den och bodarna så att allt är i samma skick som när det var bebott. Meningen 
-            <lb/>är att behålla det som ett minnesmärke från en strävsam tid som annars snart 
-            <lb/>skulle glömmas. 
-         </p>
-         <p>Jonas Anderssons föräldrar bodde först i Bertejaure, men flyttade sedan till Örn-
-            <lb/>bo. Huset de byggde var enkelt och en av döttrarna berättade att de hade jordgolv 
-            <lb/>första tiden och bara hade sågat av träden och hade stubbarna att sitta på. Hon 
-            <lb/>och hennes syskon brukade skratta när det kom någon främmande som försökte 
-            <lb/>flytta stubben de satt på. 
-         </p>
-         <p>Johan Berglund hörde sina föräldrar berätta att det alltid, trots stor fattigdom, 
-            <lb/>var mycket ordentligt och snyggt i hemmet och gumman Eva var duktig att sköta 
-            <lb/>kreaturen. De hade alltid fina kor och får. När föräldrarna dog övertog Jonas An­-
-            <lb/>dersson Örnbo.
-         </p>
-         <p>Det måste ha varit ett otroligt slit för att klara sig och familjen. Hans hustru Stina 
-            <lb/>var sjuklig och när hon skulle ner till byn måste han dra henne på kälke. På hem­-
-            <lb/>vägen var det säkert tungt då vägen var brant och lång. På somrarna rodde han 
-            <lb/>över Gautsträsk. Vad man mest minns var att Jonas alltid var glad och förnöjd.   
-         </p>
-         <pb/><fw type="pageNum" place="bottom">12</fw>
-         <facsimile>
-            <surface>
-               <figure>
-                  <label>Page 13 photograph</label>
-                  <figDesc>
-                     Bild från stugan i Örnbo vårvintern <date when="1932">1932</date>. 
-                     T.v Fru Larsson (en besökare), Hulda, Stina och Jonas Andersson
-                  </figDesc>
-                  <graphic/>
-                  <ab type="caption">Bild från stugan i Örnbo vårvintern <date when="1932">1932</date>. 
-                     T.v Fru Larsson (en besökare), Hulda, Stina och Jonas Andersson</ab>
-                  <ab type="caption">Fotograf okänd</ab>
-               </figure>
-            </surface>
-         </facsimile>
-         <p><date when="1943">1943</date> byggdes ett kraftverk en kilometer från Örnbo. Men den som ville ha elek-
-            <lb/>triskt ljus måste köpa en andel i kraftverket för hundra kronor. För Jonas var så 
-            <lb/>mycket pengar omöjliga att skaffa. Han fick klara sig med fotogenlampa hela sitt 
-            <lb/>liv. Han var en duktig slöjdare och om han levat nu när Ammarnäs blivit turist­-
-            <lb/>ort skulle han säkert inte haft någon svårighet att skaffa kontanter. Hans smör-­
-            <lb/>askar t.ex var rena mästerverken.
-         </p>
-         <p>Byborna hälsade gärna på i Örnbo. Där var rent och snyggt och hemtrevligt. Fa-
-            <lb/>miljen var glad och vänlig. Trots det långa avståndet till byn och utan väg var det 
-            <lb/>inte ofta Jonas saknades i kyrkan när det var gudstjänst. Hans son Fritiof An­-
-            <lb/>dersson ärvde sin fars skicklighet att slöjda och dottern Hulda stickade de finaste 
-            <lb/>saker. 
-         </p>
-         <p>För den som försöker bilda sig en uppfattning om livsvillkoren på en fjällägenhet 
-            <lb/>för inte så länge sedan, är Örnbo ett intressant utflyktsmål. Från hösten <date when="1972">1972</date> till 
-            <lb/>hösten <date when="1973">1973</date> hade mellan fem och sexhundra personer besökt stället. Från byn 
-            <lb/>kan man på sommaren antingen åka motorbåt över sjön och sedan gå uppför li­-
-            <lb/>den eller också åka bil fyra kilometer och sedan gå lika långt. 
-         </p>
-         <pb/><fw type="pageNum" place="bottom">13</fw>
-         <p>Lite mer fakta om Örnbo som framtagits av <date when="2008">2008-års</date> cirkeldeltagare: 
-            <lb/>Gården Örnbo ligger på kronoöverloppsmark inom Vindelfjällens Naturreservat. Upprinnelsen till historien om Örnbo som boplats finns att läsa i avsnittet om 
-            <lb/>Bertejaure. När Ewa och Anders Jonsson förlorade sitt hemman i Bertejaure fick
-            <lb/>de en inhysningslägenhet i Örnbo. Detta skedde någon gång i slutet på <date when="1890">1890-talet</date> 
-            <lb/>och de blev också de första som bosatte sig i Örnbo. 
-         </p>
-         <p>Efter moderns död övertog ett av de sex barnen, sonen Jonas Andersson, Örnbo. 
-            <lb/>Han hade ett litet jordbruk med två, tre kor, några får och getter. Skörden blev
-            <lb/>inte så stor på ängen hemma vid gården. De fick slå det mesta på myrar och ängar 
-            <lb/>långt hemifrån och sedan dra det hem på kälken på vintern av egen kraft eftersom 
-            <lb/>det inte fanns någon häst i hushållet. 
-         </p>
-         <p>Där bodde Jonas med sin hustru Stina och dottern Hulda född <date when="1913">1913</date>. Stina dog 
-            <lb/><date when="1936">1936</date> och Jonas dog 71 år gammal år <date when="1952">1952</date>. Vid faderns död flyttade Hulda till 
-            <lb/>Sorsele och sedan dess har Örnbo stått öde. Örnbo blev av praktiska skäl överfört 
-            <lb/>från inhysningslägenhet till fjällägenhet år <date when="1914">1914</date>, d.v.s när Jonas med familj fort­-
-            <lb/>farande bodde där. Numera betraktas det som ett statligt byggnadsminne.   
-         </p>
-        </div2>
-        <div2 type="section">
-         <head>Örnbo</head>
-         <p>Som en uråldrig fornminnesrelik ruvande över tider som varit, ligger huset på 
-            <lb/>liden. Det verkar framvuxet ur berget självt med den gråa färgen som endast år­-
-            <lb/>hundraden kan måla. Det sträcker sig på höjden och spejar över sjön.   
-         </p>
-         <p>Kanske är det fantasin. Kanske är det verklighet. De slumrande toner från släk­-
-            <lb/>ten som kommit och gått, en nutida besökare tycks förnimma. Toner från fjärran 
-            <lb/>ur tider som minner om de människor som här bott och verkat. Känslor. Lika i
-            <lb/>ntensiva som de kraftigaste höstfärger. Liv och död. Kärlek och hopp - ja, hela 
-            <lb/>registret av människans sinnesrörelser har haft. 
-         </p>
-         <p>En samlingspunkt här. Tänk om väggarna kunde tala! De skulle viska om kärlek; 
-            <lb/>de skulle mumla om tvister och bråd död. Hemligheter om andra dimensioner; 
-            <lb/>vittra, baran och troll skulle också yppas. Släkten Andersson-Jonsson bodde här 
-            <lb/>vintertid, och på sommaren vid sjön Bertejaure där fäboden fanns. Foder till dju­-
-            <lb/>ren togs från murarna vid sjön. Bra med fisk och jakt; korna bidrog till försörj­-
-            <lb/>ningen. 
-         </p>
-         <p>Tankar i mars <date when="2006">2006</date> nedtecknat av Ingemar Strömgren</p>
-         <pb/><fw type="pageNum" place="bottom">14</fw>
-         </div2>
-        </div1>
+            <head>Kapitel 1 
+               Fjällägenheter 
+            </head>
+            <div2 type="section">
+               <head>1. Allmänt</head>
+               <p>Utstakandet av fjällägenheter var troligen i många fall ett sätt att legalisera redan 
+                  <lb/>befintlig, olaga bebyggelse på villkor som kunde minska det intrång som samerna 
+                  <lb/>ansåg bosättningen kunde medföra för deras renskötsel. Den som försökte slå sig 
+                  <lb/>ner i renbeteslandet var oftast inte välkommen. Det berättas bl.a att <persName>Johan Anton 
+                  <lb/>Johansson</persName> höll på att bli vräkt från sitt ställe i <placeName>Nuolpen</placeName>.
+               </p>
+               <p> 
+                  <lb/>Fjällägenheterna låg oftast långt in i ödemarken, långt från annan bebyggelse 
+                  <lb/>och vägar men alltid med tillgång till fiskevatten. Fisket var ett livsvillkor för lä­
+                  <lb/>genhetsägaren men också för de bofasta i lappmarken. Både för samerna och för
+                  <lb/>andra som vandrade i fjällen, blev fjällägenheterna en tillflykt. Där kunde de få 
+                  <lb/>vila, värme och mat efter långa och tröttande vandringar, ofta i oväder och kyla. 
+                  <lb/>Många berättar med stor tacksamhet om hur vänligt mottagna de blivit just i de avlägset belägna fjällgårdarna. 
+               </p>
+               <facsimile>
+                  <surface>
+                     <figure>
+                        <label>Page 10 photograph</label>
+                        <figDesc>
+                           A photograph of <persName>Hildur</persName> och <persName>Johan Nilsson</persName> i <placeName>Rödingvik</placeName>
+                        </figDesc>
+                        <graphic/>
+                        <ab type="caption"><persName>Hildur</persName>och <persName>Johan Nilsson</persName> i <placeName>Rödingvik</placeName></ab>
+                        <ab type="caption">Foto: <persName>Axel Nordström</persName></ab>
+                     </figure>
+                  </surface>
+               </facsimile>
+               <p> 
+                  <lb/>I området närmast <placeName>Ammarnäs</placeName> har funnits sju fjällägenheter: <placeName>Rödingbäck</placeName>, <placeName>Nu­
+                  <lb/>olpen</placeName>, <placeName>Matsojokk</placeName>, <placeName>Dåraudden</placeName>, <placeName>Aitelnasfors</placeName>, <placeName>Bissaliden</placeName> och <placeName>Örnbo</placeName>. Längst in i 
+                  <lb/><placeName>Tjulträskdalen</placeName> ligger <placeName>Nuolpen</placeName>. Där bodde <persName>Johan Anton Johansson</persName> med sin fa-
+                  <lb/>milj. Lägenheten upprustades till norrländsk fjällägenhet och arrenderades un-
+                  <lb/>der många år av hans son <persName>Enar Johansson</persName>. 
+               </p>
+               <pb/><fw type="pageNum" place="bottom">10</fw>
+               <p>
+                  <lb/>I <placeName>Matsojokk</placeName> slog <persName>Anders Nilsson</persName> och hans hustru <persName>Sara</persName> sig ner när de lämnade 
+                  <lb/>renskötseln. Deras svärson <persName>Fritiof Andersson</persName>, övertog lägenheten efter dem men 
+                  <lb/>överlät den sedan till Lantbruksstyrelsen. <persName>Axel Nilsson</persName> hade fjällägenheten <placeName>Då­
+                     <lb/>raudden</placeName> men flyttade ganska snart ner till <placeName>Ammarnäs</placeName> och lät Lantbruksstyrel­
+                  <lb/>sen inlösa lägenheten. 
+               </p>
+               <p>
+                  <lb/><persName>Nils Sjulsson</persName> hade fjällägenheten <placeName>Rödingbäck</placeName>. Hans föräldrar bodde i <placeName>Mjölk­
+                     <lb/>bäcken</placeName> i <placeName>Tärna socken</placeName>. Själv var han lappdräng i tolv år. När dränglönen var som 
+                  <lb/>högst hade han nittio kronor om året. Han var känd som en duktig vargrännare. 
+                  <lb/>Han gifte sig med <persName>Ulla</persName> som var bördig från Noulpen och bosatte sig där den första 
+                  <lb/>tiden. <persName>Johan Nilsson</persName> i <placeName>Rödingvik</placeName>, son till <persName>Nils Sjulsson</persName>, berättar en händelse som 
+                  <lb/>föräldrarna talat om: 
+               </p>
+               <p>
+                  <lb/>Föräldrarna var ganska nygifta och en av nybyggarna från <placeName>Ammarnäs</placeName> kom och 
+                  <lb/>skulle hjälpa <persName>Nils Sjulsson</persName> att bygga en lada. <persName>Ulla</persName> tyckte att hennes enda gryta 
+                  <lb/>var för liten att laga mat i åt två karlar, så hon gick över till sin granne <persName>Margareta 
+                     <lb/>Nilsson</persName> för att låna en större gryta. Karlarna väntade på maten och tyckte att hon 
+                  <lb/>blev onödigt länge borta. När hon kom tillbaka berättade hon att hon hade varit 
+                  <lb/>tvungen att stanna en stund hos <persName>Margareta</persName>. Anledningen var att <persName>Margareta</persName> hade 
+                  <lb/>fött en son och var ensam hemma i kåtan. Detta hände i <date when="1898-10">oktober 1898</date>. 
+               </p>
+               <p>
+                  <lb/><persName>Nils Sjulsson</persName> köpte först ett stycke av ett kronohemman men lät sedan detta köp 
+                  <lb/>gå tillbaka och började odla och bygga i <placeName>Rödingvik</placeName> i stället, där han fick fjällägen-
+                  <lb/>­hetskontrakt <date when="1918">1918</date>.  
+               </p>
+               <p>
+                  <lb/>Detta ställe ligger underbart vackert på sluttningen mot <placeName>Tjulträsket</placeName> och med ut­
+                  <lb/>sikt mot fjällen på andra sidan sjön. Hemmet är trivsamt och alla familjemedlem­
+                  <lb/>marna har varit gästfria och trevliga, varför många turister sökt sig dit gång på 
+                  <lb/>gång. De gamla är borta sedan många år liksom deras barn <persName>Hildur</persName> och <persName>Johan</persName> som 
+                  <lb/>tog över efter föräldrarna. Johan Nilsson hade friköpt stället och numera förvaltas 
+                  <lb/>det av hans syskonbarn <persName>Ulla Karin Olofsson</persName>. 
+                  <lb/><persName>Erik Björk</persName> har fjällägenheten <placeName>Aitelnasfors</placeName>. Han var son till <persName>Sjulsson</persName> och omta-
+                  <lb/>las i berättelsen om <placeName>Aitelnas</placeName>. Fjällägenheten <placeName>Örnbo</placeName> har fått ett eget kapitel i vår 
+                  <lb/>historik. 
+               </p>
+               <p>
+                  <lb/>När Ammarnäsborna byggde ett andelskraftverk i <placeName>Bissasbäcken</placeName> <date when="1943">1943</date> anställdes 
+                  <lb/><persName>Linus Strömgren</persName> att sköta detta när det togs i bruk. För att kunna bo i närheten av kraftverket, sökte och fick han en fjällägenhet som han kallade <placeName>Bissaliden</placeName>. På 
+                  <lb/>grund av sjukdom måste han lämna sitt arbete i kraftverket och flyttade ner till 
+                  <lb/>byn igen. 
+               </p>
+               <p>
+                  <lb/><placeName>Noulpen</placeName> beboddes så sent som till vintern <date when="2004">2004</date> av <persName>Enar Johansson</persName>. Efter hans 
+                  <lb/>död i <date when="2005-02">februari 2005</date> har hans arvingar övertagit och förvaltar nu <placeName>Nuolpen</placeName>. En av 
+                  <lb/>hans systrar, <persName>Anna Ericsson</persName>, berättar att deras släkt har funnits i <placeName>Tjulträskda-
+                  <lb/>len</placeName> ända sedan <date when="1600">1600-talet</date>. Hon berättar om sin mormor och morfar, <persName>Anna Stina 
+                  <lb/>Nilsdotter</persName> och <persName>Johannes Isaksson</persName>. De kom från vardera södra resp. norra delen 
+                  <lb/>av <placeName>Tjulträsk</placeName>. 
+               </p>
+               <p>
+                  <lb/>När <persName>Johannes</persName> dog förordnade staten renbeteslandet till <persName>Anna Stina</persName>s bror efter­-
+                  <lb/>som hon som kvinna inte fick äga renar. 
+                  <pb/><fw type="pageNum" place="bottom">11</fw>
+               </p>
+               <p>Det gjorde att hon fick försöka livnära sig på det lilla jordbruk de hade haft med
+                  <lb/>3-4 kor, ett par getter och några får. Rovdjuren härjade och björn var vanlig i trak­
+                  <lb/>ten. <persName>Anna</persName> har fått sig berättat att en sommar hade björnen tagit deras skälltacka. 
+                  <lb/>Om de hade haft råd med en getare (någon som vaktade boskapen vilket ofta var 
+                  <lb/>de större barnens uppgift) då hade det förmodligen inte hänt. De var sju syskon 
+                  <lb/>som växte upp i <placeName>Nuolpen</placeName>, modern hette <persName>Svea</persName> och fadern <persName>Johan Anton Johansson</persName> 
+                  <lb/>från <placeName>Björkfjället</placeName>. 
+               </p>
+               <p>Sommartid bodde de i två kåtor. Där röktes fisk som hängdes upp i reppen (rök-
+                  <lb/>hålet i kåtan) och kokades juomo, ett slags kräm som kokades av syragräs. Sma-
+                  <lb/>ken påminner lite om rabarber, det är mycket vitaminrikt och uppskattat av både 
+                  <lb/>stora och små. Varje vår lades nytt ris i kåtorna. Det skulle vara nyutslaget björk­
+                  <lb/>ris så att det blev mjukt på golvet. På samiska kallades det att darj kåtan. 
+                  <lb/>När <persName>Anna</persName> växte upp fick hon inte gå i skolan i <sic>Dårraudden</sic>. Det var ju en same­
+                  <lb/>skola för barn med renägande föräldrar, och eftersom hennes föräldrar inte hörde 
+                  <lb/>till dessa fick hon gå i <placeName>Ammarnäs skola</placeName>. Första åren som inhyst i <placeName>Antes</placeName> och där-
+                  <lb/>efter när <placeName>Arbetsstugan</placeName> stod klar bodde hon där under sin resterande skolgång. 
+                  <lb/>Numera bor <persName>Anna</persName> i <placeName>Ammarnäs</placeName>. 
+               </p>
+            </div2>
+            <div2 type="section">
+               <head>2. Fjällägenheten <placeName>Örnbo</placeName> </head>
+               <p>Högt uppe i liden på norra sidan <placeName>Gautsträsket</placeName>, ligger fjällägenheten <placeName>Örnbo</placeName>. Den 
+                  <lb/>ligger cirka fyra kilometer från närmaste granne. Utsikten därifrån över sjön <placeName>Gaut­
+                  <lb/>sträsket</placeName> och skogen är oförglömlig. 
+               </p>
+               <p>Sedan fjällägenhetsägaren <persName>Jonas Andersson</persName> dog <date when="1952">1952</date> har 
+                  <lb/><placeName>Örnbo</placeName> varit öde. Nu har domänverket med AMS-medel reparerat stugan, ladugår-
+                  <lb/>den och bodarna så att allt är i samma skick som när det var bebott. Meningen 
+                  <lb/>är att behålla det som ett minnesmärke från en strävsam tid som annars snart 
+                  <lb/>skulle glömmas. 
+               </p>
+               <p><persName>Jonas Andersson</persName>s föräldrar bodde först i <placeName>Bertejaure</placeName>, men flyttade sedan till <placeName>Örn-
+                  <lb/>bo</placeName>. Huset de byggde var enkelt och en av döttrarna berättade att de hade jordgolv 
+                  <lb/>första tiden och bara hade sågat av träden och hade stubbarna att sitta på. Hon 
+                  <lb/>och hennes syskon brukade skratta när det kom någon främmande som försökte 
+                  <lb/>flytta stubben de satt på. 
+               </p>
+               <p><persName>Johan Berglund</persName> hörde sina föräldrar berätta att det alltid, trots stor fattigdom, 
+                  <lb/>var mycket ordentligt och snyggt i hemmet och gumman <persName>Eva</persName> var duktig att sköta 
+                  <lb/>kreaturen. De hade alltid fina kor och får. När föräldrarna dog övertog <persName>Jonas An­
+                  <lb/>dersson</persName> <placeName>Örnbo</placeName>.
+               </p>
+               <p>Det måste ha varit ett otroligt slit för att klara sig och familjen. Hans hustru <persName>Stina</persName> 
+                  <lb/>var sjuklig och när hon skulle ner till byn måste han dra henne på kälke. På hem­
+                  <lb/>vägen var det säkert tungt då vägen var brant och lång. På somrarna rodde han 
+                  <lb/>över <placeName>Gautsträsk</placeName>. Vad man mest minns var att <persName>Jonas</persName> alltid var glad och förnöjd.   
+               </p>
+               <pb/><fw type="pageNum" place="bottom">12</fw>
+               <facsimile>
+                  <surface>
+                     <figure>
+                        <label>Page 13 photograph</label>
+                        <figDesc>
+                           Bild från stugan i <placeName>Örnbo</placeName> vårvintern <date when="1932">1932</date>. 
+                           T.v Fru<persName>Larsson</persName> (en besökare), <persName>Hulda</persName>, <persName>Stina</persName> och <persName>Jonas Andersson</persName>
+                        </figDesc>
+                        <graphic/>
+                        <ab type="caption">Bild från stugan i <placeName>Örnbo</placeName> vårvintern <date when="1932">1932</date>. 
+                           T.v Fru <persName>Larsson</persName> (en besökare), <persName>Hulda</persName>, <persName>Stina</persName> och <persName>Jonas Andersson</persName></ab>
+                        <ab type="caption">Fotograf okänd</ab>
+                     </figure>
+                  </surface>
+               </facsimile>
+               <p><date when="1943">1943</date> byggdes ett kraftverk en kilometer från <placeName>Örnbo</placeName>. Men den som ville ha elek-
+                  <lb/>triskt ljus måste köpa en andel i kraftverket för hundra kronor. För <persName>Jonas</persName> var så 
+                  <lb/>mycket pengar omöjliga att skaffa. Han fick klara sig med fotogenlampa hela sitt 
+                  <lb/>liv. Han var en duktig slöjdare och om han levat nu när <placeName>Ammarnäs</placeName> blivit turist­
+                  <lb/>ort skulle han säkert inte haft någon svårighet att skaffa kontanter. Hans smör-
+                  <lb/>askar t.ex var rena mästerverken.
+               </p>
+               <p>Byborna hälsade gärna på i <placeName>Örnbo</placeName>. Där var rent och snyggt och hemtrevligt. Fa-
+                  <lb/>miljen var glad och vänlig. Trots det långa avståndet till byn och utan väg var det 
+                  <lb/>inte ofta <persName>Jonas</persName> saknades i kyrkan när det var gudstjänst. Hans son <persName>Fritiof An­
+                  <lb/>dersson</persName> ärvde sin fars skicklighet att slöjda och dottern <persName>Hulda</persName> stickade de finaste 
+                  <lb/>saker. 
+               </p>
+               <p>För den som försöker bilda sig en uppfattning om livsvillkoren på en fjällägenhet 
+                  <lb/>för inte så länge sedan, är <placeName>Örnbo</placeName> ett intressant utflyktsmål. Från hösten <date when="1972">1972</date> till 
+                  <lb/>hösten <date when="1973">1973</date> hade mellan fem och sexhundra personer besökt stället. Från byn 
+                  <lb/>kan man på sommaren antingen åka motorbåt över sjön och sedan gå uppför li­
+                  <lb/>den eller också åka bil fyra kilometer och sedan gå lika långt. 
+               </p>
+               <pb/><fw type="pageNum" place="bottom">13</fw>
+               <p>Lite mer fakta om <placeName>Örnbo</placeName> som framtagits av <date when="2008">2008-års</date> cirkeldeltagare: 
+                  <lb/>Gården <placeName>Örnbo</placeName> ligger på kronoöverloppsmark inom <placeName>Vindelfjällens Naturreservat</placeName>. Upprinnelsen till historien om <placeName>Örnbo</placeName> som boplats finns att läsa i avsnittet om 
+                  <lb/><placeName>Bertejaure</placeName>. När <persName>Ewa</persName> och <persName>Anders Jonsson</persName> förlorade sitt hemman i <placeName>Bertejaure</placeName> fick
+                  <lb/>de en inhysningslägenhet i <placeName>Örnbo</placeName>. Detta skedde någon gång i slutet på <date when="1890">1890-talet</date> 
+                  <lb/>och de blev också de första som bosatte sig i <placeName>Örnbo</placeName>. 
+               </p>
+               <p>Efter moderns död övertog ett av de sex barnen, sonen <persName>Jonas Andersson</persName>, <placeName>Örnbo</placeName>. 
+                  <lb/>Han hade ett litet jordbruk med två, tre kor, några får och getter. Skörden blev
+                  <lb/>inte så stor på ängen hemma vid gården. De fick slå det mesta på myrar och ängar 
+                  <lb/>långt hemifrån och sedan dra det hem på kälken på vintern av egen kraft eftersom 
+                  <lb/>det inte fanns någon häst i hushållet. 
+               </p>
+               <p>Där bodde <persName>Jonas</persName> med sin hustru <persName>Stina</persName> och dottern <persName>Hulda</persName> född <date when="1913">1913</date>. <persName>Stina</persName> dog 
+                  <lb/><date when="1936">1936</date> och <persName>Jonas</persName> dog 71 år gammal år <date when="1952">1952</date>. Vid faderns död flyttade <persName>Hulda</persName> till 
+                  <lb/><placeName>Sorsele</placeName> och sedan dess har <placeName>Örnbo</placeName> stått öde. <placeName>Örnbo</placeName> blev av praktiska skäl överfört 
+                  <lb/>från inhysningslägenhet till fjällägenhet år <date when="1914">1914</date>, d.v.s när <persName>Jonas</persName> med familj fort­
+                  <lb/>farande bodde där. Numera betraktas det som ett statligt byggnadsminne.   
+               </p>
+            </div2>
+            <div2 type="section">
+               <head><placeName>Örnbo</placeName></head>
+               <p>Som en uråldrig fornminnesrelik ruvande över tider som varit, ligger huset på 
+                  <lb/>liden. Det verkar framvuxet ur berget självt med den gråa färgen som endast år­
+                  <lb/>hundraden kan måla. Det sträcker sig på höjden och spejar över sjön.   
+               </p>
+               <p>Kanske är det fantasin. Kanske är det verklighet. De slumrande toner från släk­
+                  <lb/>ten som kommit och gått, en nutida besökare tycks förnimma. Toner från fjärran 
+                  <lb/>ur tider som minner om de människor som här bott och verkat. Känslor. Lika i
+                  <lb/>ntensiva som de kraftigaste höstfärger. Liv och död. Kärlek och hopp - ja, hela 
+                  <lb/>registret av människans sinnesrörelser har haft. 
+               </p>
+               <p>En samlingspunkt här. Tänk om väggarna kunde tala! De skulle viska om kärlek; 
+                  <lb/>de skulle mumla om tvister och bråd död. Hemligheter om andra dimensioner; 
+                  <lb/>vittra, baran och troll skulle också yppas. Släkten <persName>Andersson-Jonsson</persName> bodde här 
+                  <lb/>vintertid, och på sommaren vid sjön <placeName>Bertejaure</placeName> där fäboden fanns. Foder till dju­
+                  <lb/>ren togs från murarna vid sjön. Bra med fisk och jakt; korna bidrog till försörj­
+                  <lb/>ningen. 
+               </p>
+               <p>Tankar i mars <date when="2006">2006</date> nedtecknat av <persName>Ingemar Strömgren</persName></p>
+               <pb/><fw type="pageNum" place="bottom">14</fw>
+            </div2>
+         </div1>
       </body>
    </text>
 </TEI>
+
