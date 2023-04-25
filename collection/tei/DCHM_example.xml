@@ -44,8 +44,9 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
-     <text>
+   <text>
       <body>
+         <div1 type="chapter" n="1">
          <head>Kapitel 1 
             Fjällägenheter 
          </head>
@@ -163,6 +164,7 @@
             <lb/>efter när Arbetsstugan stod klar bodde hon där under sin resterande skolgång. 
             <lb/>Numera bor Anna i Ammarnäs. 
          </p>
+         <div2 type="section">
          <head>2. Fjällägenheten Örnbo </head>
          <p>Högt uppe i liden på norra sidan Gautsträsket, ligger fjällägenheten Örnbo. Den 
             <lb/>ligger cirka fyra kilometer från närmaste granne. Utsikten därifrån över sjön Gaut­-
@@ -229,7 +231,7 @@
          <p>Lite mer fakta om Örnbo som framtagits av <date when="2008">2008-års</date> cirkeldeltagare: 
             <lb/>Gården Örnbo ligger på kronoöverloppsmark inom Vindelfjällens Naturreservat. Upprinnelsen till historien om Örnbo som boplats finns att läsa i avsnittet om 
             <lb/>Bertejaure. När Ewa och Anders Jonsson förlorade sitt hemman i Bertejaure fick
-            <lb/>de en inhysningslägenhet i Örnbo. Detta skedde någon gång i slutet på <date when="1890-talet">1890-talet</date> 
+            <lb/>de en inhysningslägenhet i Örnbo. Detta skedde någon gång i slutet på <date when="1890">1890-talet</date> 
             <lb/>och de blev också de första som bosatte sig i Örnbo. 
          </p>
          <p>Efter moderns död övertog ett av de sex barnen, sonen Jonas Andersson, Örnbo. 
@@ -244,6 +246,8 @@
             <lb/>från inhysningslägenhet till fjällägenhet år <date when="1914">1914</date>, d.v.s när Jonas med familj fort­-
             <lb/>farande bodde där. Numera betraktas det som ett statligt byggnadsminne.   
          </p>
+        </div2>
+        <div3 type="section">
          <head>Örnbo</head>
          <p>Som en uråldrig fornminnesrelik ruvande över tider som varit, ligger huset på 
             <lb/>liden. Det verkar framvuxet ur berget självt med den gråa färgen som endast år­-
@@ -264,6 +268,8 @@
          </p>
          <p>Tankar i mars <date when="2006">2006</date> nedtecknat av Ingemar Strömgren</p>
          <pb/><fw type="pageNum" place="bottom">14</fw>
+         </div3>
+        </div1>
       </body>
    </text>
 </TEI>
