@@ -48,6 +48,19 @@
          </langUsage>
       </profileDesc>
    </teiHeader>
+   <facsimile>
+      <surface xml:id="Ammarnas1_frontcover">
+         <figure>
+            <label>Ammarnas1_frontcover</label>
+            <figDesc>Front cover of the book titled Ammarnasbygdens Historia 1803-2008. Nedtecknad av nybyggarnas attlingar</figDesc>
+            <graphic
+               url="https://github.com/sashas5454/Ammarnas/blob/main/docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg"/>
+            <graphic
+               url="https://github.com/sashas5454/Ammarnas/blob/main/docs/assets/img/Scans_in_tiff/Ammarnas1_frontcover.tif"
+            />
+         </figure>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div1 type="chapter" n="1">
@@ -70,19 +83,7 @@
                   <lb/>vila, värme och mat efter långa och tröttande vandringar, ofta i oväder och kyla. 
                   <lb/>Många berättar med stor tacksamhet om hur vänligt mottagna de blivit just i de avlägset belägna fjällgårdarna. 
                </p>
-               <facsimile>
-                  <surface>
-                     <figure>
-                        <label>Page 10 photograph</label>
-                        <figDesc>
-                           A photograph of <persName>Hildur</persName> och <persName>Johan Nilsson</persName> i <placeName>Rödingvik</placeName>
-                        </figDesc>
-                        <graphic/>
-                        <ab type="caption"><persName>Hildur</persName>och <persName>Johan Nilsson</persName> i <placeName>Rödingvik</placeName></ab>
-                        <ab type="caption">Foto: <persName>Axel Nordström</persName></ab>
-                     </figure>
-                  </surface>
-               </facsimile>
+             
                <p> 
                   <lb/>I området närmast <placeName>Ammarnäs</placeName> har funnits sju fjällägenheter: <placeName>Rödingbäck</placeName>, <placeName>Nu­
                   <lb/>olpen</placeName>, <placeName>Matsojokk</placeName>, <placeName>Dåraudden</placeName>, <placeName>Aitelnasfors</placeName>, <placeName>Bissaliden</placeName> och <placeName>Örnbo</placeName>. Längst in i 
@@ -199,21 +200,6 @@
                   <lb/>över <placeName>Gautsträsk</placeName>. Vad man mest minns var att <persName>Jonas</persName> alltid var glad och förnöjd.   
                </p>
                <pb/><fw type="pageNum" place="bottom">12</fw>
-               <facsimile>
-                  <surface>
-                     <figure>
-                        <label>Page 13 photograph</label>
-                        <figDesc>
-                           Bild från stugan i <placeName>Örnbo</placeName> vårvintern <date when="1932">1932</date>. 
-                           T.v Fru<persName>Larsson</persName> (en besökare), <persName>Hulda</persName>, <persName>Stina</persName> och <persName>Jonas Andersson</persName>
-                        </figDesc>
-                        <graphic/>
-                        <ab type="caption">Bild från stugan i <placeName>Örnbo</placeName> vårvintern <date when="1932">1932</date>. 
-                           T.v Fru <persName>Larsson</persName> (en besökare), <persName>Hulda</persName>, <persName>Stina</persName> och <persName>Jonas Andersson</persName></ab>
-                        <ab type="caption">Fotograf okänd</ab>
-                     </figure>
-                  </surface>
-               </facsimile>
                <p><date when="1943">1943</date> byggdes ett kraftverk en kilometer från <placeName>Örnbo</placeName>. Men den som ville ha elek-
                   <lb/>triskt ljus måste köpa en andel i kraftverket för hundra kronor. För <persName>Jonas</persName> var så 
                   <lb/>mycket pengar omöjliga att skaffa. Han fick klara sig med fotogenlampa hela sitt 
