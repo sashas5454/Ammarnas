@@ -12,7 +12,7 @@
                 <title>
                     <!-- add the title from the metadata. This is what will be shown
                     on your browsers tab-->
-                    frankensTEIn: Home
+                    Ammarnas: Home
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
                 <link rel="stylesheet"
@@ -43,7 +43,7 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                                <article id="thumbnail">
-                                <img>
+                                <img width="500">
                                     <xsl:attribute name="src">
                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']/tei:figure/tei:graphic[1]/@url"/>
                                     </xsl:attribute>
