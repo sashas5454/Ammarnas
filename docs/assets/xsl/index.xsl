@@ -42,7 +42,7 @@
                         <div class="row">
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
-                               <article id="thumbnail">
+                              
                                 <img width="500">
                                     <xsl:attribute name="src">
                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']/tei:figure/tei:graphic[1]/@url"/>
@@ -54,7 +54,7 @@
                                         <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']//tei:figDesc"/>
                                     </xsl:attribute>
                                 </img>
-                               </article>
+                               
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-sm">
