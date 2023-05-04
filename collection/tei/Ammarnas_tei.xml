@@ -6,16 +6,20 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Transcription of Chapter 1 of Ammarnäsbygdens historia (1803-2008)</title>
+            <title>Ammarnäsbygdens historia (1803-2008) : Nedtecknad av nybyggarnas ättlingar</title>
             <respStmt>
-               <name>Emilie Lindström</name>
-               <name>Sasha Spirkina</name>
-               <resp>Transcribed and encoded by</resp>
+		<resp>Digitized, transcribed and encoded by</resp>
+               	<persName>Emilie Lindström</persName>
+               	<persName>Sasha Spirkina</persName>
+		<orgName>University of Borås</orgName>
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <p>Do not copy, cite, or distribute without permission of the authors</p>
-            <p>Published as a website through GitHub as part of a project work for the course Digitalising Cultural Heritage Material at Borås University</p>
+            <publisher>Högskolan i Borås</publisher>
+            <distributor>
+               <persName>Emilie Lindström</persName>
+               <persName>Sasha Spirkina</persName>
+            </distributor>
          </publicationStmt>
          <sourceDesc>
             <bibl>
