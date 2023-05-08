@@ -57,11 +57,8 @@
          <figure>
             <label>Ammarnas1_frontcover</label>
             <figDesc>Front cover of the book titled Ammarnasbygdens Historia 1803-2008. Nedtecknad av nybyggarnas attlingar</figDesc>
-            <graphic
-               url="https://github.com/sashas5454/Ammarnas/blob/main/docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg"/>
-            <graphic
-               url="https://github.com/sashas5454/Ammarnas/blob/main/docs/assets/img/Scans_in_tiff/Ammarnas1_frontcover.tif"
-            />
+            <graphic url="../docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg"/>
+            <graphic url="../docs/assets/img/Scans_in_tiff/Ammarnas1_frontcover.tif"/>
          </figure>
       </surface>
    </facsimile>
