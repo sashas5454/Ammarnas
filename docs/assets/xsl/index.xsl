@@ -43,7 +43,7 @@
                             <!-- first column: load the image based on the IIIF link in the graphic above -->
                             <div class="col-sm">
                               
-                                <img width="500">
+                                <img width="400">
                                     <xsl:attribute name="src">
                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']/tei:figure/tei:graphic[1]/@url"/>
                                     </xsl:attribute>
