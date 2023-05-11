@@ -30,8 +30,12 @@
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
-         <projectDesc><p>The goal of the project is to encode and publish Chapter 1 of the book "Ammarnäsbygdens historia 1803-2008 : nedtecknad av nybyggarnas ättlingar".</p></projectDesc>
-         <samplingDecl><p>Chapter 1 of the book has been sampled to fit the scope of the project assignment. </p></samplingDecl>
+         <projectDesc>
+		<p>Digitizaton of the initial pages and Chapter 1 of the book "Ammarnäsbygdens historia 1803-2008 : nedtecknad av nybyggarnas ättlingar".</p>
+		<p>The purpose of the digitization is to make the content available to anyone who is interested in the history of Ammarnäs in general or the book in particular.</p>
+		<p>Markup and OCR of the material has been made in order to increase the searchability, availability and transparency of the material</p>
+	 </projectDesc>
+         <samplingDecl><p>Chapter 1 of the book has been sampled to fit the scope of our particular project assignment.</p></samplingDecl>
          <editorialDecl>
             <hyphenation><p>Hyphens have been transcribed as they appear.</p></hyphenation>
             <correction>
