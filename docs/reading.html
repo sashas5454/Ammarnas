@@ -6,12 +6,8 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
-      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
-      <style>
-           .carousel-image {
-          width: 550px;
-         }
-      </style>
+      <link href="imagecarousell.css" rel="Stylesheets"/>
+      <script src="imagecarousell.js"></script>
    </head>
    <body>
       <header>
@@ -24,24 +20,40 @@
          <a href="toplayer.html">Top Layer</a> |
       </nav>
       <main id="manuscript">
-         <div class="carousel">
-             <div><a href="assets/img/tiff2jpg/Ammarnas1_frontcover.jpg"><img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" alt="Image 1"></div>
-             <div><a href="assets/img/tiff2jpg/Ammarnas2_titlepage.jpg"><img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas2_titlepage.jpg" alt="Image 2"></div>
-             <div><a href="assets/img/tiff2jpg/Ammarnas3_Thankyou.jpg"><img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas3_Thankyou.jpg" alt="Image 3"></div>
-           </div>
+            <!-- Slideshow container -->
+       <div class="slideshow-container fade">
 
-           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-           <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
-           <script>
-             $(document).ready(function() {
-               $('.carousel').slick({
-                 slidesToShow: 1,
-                 slidesToScroll: 1,
-                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
-                 nextArrow: '<button type="button" class="slick-next">Next</button>'
-               });
-             });
-           </script>
+         <!-- Full images with numbers and message Info -->
+         <div class="Containers">
+           <div class="MessageInfo">1 / 3</div>
+           <img src="docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" style="width:100%">
+           <div class="Info">First caption</div>
+         </div>
+
+         <div class="Containers">
+           <div class="MessageInfo">2 / 3</div>
+           <img src="Ammarnas1_frontcover.jpg" style="width:100%">
+           <div class="Info">Second Caption</div>
+         </div>
+
+         <div class="Containers">
+           <div class="MessageInfo">3 / 3</div>
+           <img src="../assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" style="width:100%">
+           <div class="Info">Third Caption</div>
+         </div>
+
+         <!-- Back and forward buttons -->
+         <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+       <br>
+
+       <!-- The circles/dots -->
+       <div style="text-align:center">
+         <span class="dots" onclick="currentSlide(1)"></span>
+         <span class="dots" onclick="currentSlide(2)"></span>
+         <span class="dots" onclick="currentSlide(3)"></span>
+       </div> 
       </main>
       <footer>
          <div class="row" id="footer">
