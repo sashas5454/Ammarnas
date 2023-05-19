@@ -1,110 +1,114 @@
 <!DOCTYPE html>
-<!DOCTYPE HTML><html lang="en" xml:lang="en">
+<html lang="en" xml:lang="en">
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-      <title>
-                    
-                   Ammarnas: Image Carousel
-                </title>
+      <title>Ammarnas: Image Carousel</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
       <style>
-    /* Style for carousel container */
-    .carousel-container {
-      width: 550px;
-      height: 300px;
-      overflow: hidden;
-      position: relative;
-    }
-    
-    /* Style for carousel images */
-    .carousel-image {
-      width: 550px;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    /* Style for carousel navigation buttons */
-    .carousel-button {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 40px;
-      height: 40px;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: #fff;
-      text-align: center;
-      line-height: 40px;
-      cursor: pointer;
-    }
-    
-    .carousel-button:hover {
-      background-color: rgba(0, 0, 0, 0.8);
-    }
-    
-    .prev-button {
-      left: 10px;
-    }
-    
-    .next-button {
-      right: 10px;
-    }
-  </style>
+        /* Style for carousel container */
+        .carousel-container {
+          width: 550px;
+          height: 300px;
+          overflow: hidden;
+          position: relative;
+        }
+        
+        /* Style for carousel images */
+        .carousel-image {
+          width: 550px;
+          height: 100%;
+          object-fit: cover;
+        }
+        
+        /* Style for carousel navigation buttons */
+        .carousel-button {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          width: 40px;
+          height: 40px;
+          background-color: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          text-align: center;
+          line-height: 40px;
+          cursor: pointer;
+        }
+        
+        .carousel-button:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        .prev-button {
+          left: 10px;
+        }
+        
+        .next-button {
+          right: 10px;
+        }
+      </style>
    </head>
    <body>
       <header>
          <h1>Ammarnäsbygdens historia 1803-2008</h1>
       </header>
-      <nav id="sitenav"><a href="index.html">About the project</a> |
+      <nav id="sitenav">
+         <a href="index.html">About the project</a> |
          <a href="diplomatic.html">Diplomatic Transcription</a> |
          <a href="reading.html">Reading Text</a> |
          <a href="toplayer.html">Top Layer</a> |
-         </nav>
+      </nav>
       <main id="manuscript">
-   <div class="carousel-container">
-    <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" alt="Image 1">
-    <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas2_titlepage.jpg" alt="Image 2">
-    <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas3_Thankyou.jpg" alt="Image 3">
-    
-    <div class="carousel-button prev-button" onclick="changeSlide(-1)">Prev</div>
-    <div class="carousel-button next-button" onclick="changeSlide(1)">Next</div>
-  </div>
+         <div class="carousel-container">
+            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" alt="Image 1">
+            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas2_titlepage.jpg" alt="Image 2">
+            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas3_Thankyou.jpg" alt="Image 3">
+            <div class="carousel-button prev-button" onclick="changeSlide(-1)">Prev</div>
+            <div class="carousel-button next-button" onclick="changeSlide(1)">Next</div>
+         </div>
 
-  <script>
-    var slideIndex = 1;
-    showSlide(slideIndex);
+         <script>
+            var slideIndex = 1;
+            showSlide(slideIndex);
 
-    function changeSlide(n) {
-      showSlide(slideIndex += n);
-    }
+            function changeSlide(n) {
+               showSlide(slideIndex += n);
+            }
 
-    function showSlide(n) {
-      var slides = document.getElementsByClassName("carousel-image");
+            function showSlide(n) {
+               var slides = document.getElementsByClassName("carousel-image");
 
-      if (n > slides.length) {
-        slideIndex = 1;
-      }
-      if (n < 1) {
-        slideIndex = slides.length;
-      }
+               if (n > slides.length) {
+                  slideIndex = 1;
+               }
+               if (n < 1) {
+                  slideIndex = slides.length;
+               }
 
-      for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
+               for (var i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+               }
 
-      slides[slideIndex - 1].style.display = "block";
-    }
-  </script>
+               slides[slideIndex - 1].style.display = "block";
+            }
+         </script>
       </main>
       <footer>
          <div class="row" id="footer">
             <div class="col-sm copyright">
-               <div><a href="https://creativecommons.org/licenses/by/4.0/legalcode"><img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License"><img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International"></a></div>
                <div>
-                  2023 Emilie Lindstrom and Sasha Spirkina.
-                  </div>
+                  <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
+                     <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
+                     <img src="assets/img/logos/by.svg" class="logo" alt="Attribution 4.0 International">
+                  </a>
+               </div>
+               <div>2023 Emilie Lindstrom and Sasha Spirkina.</div>
             </div>
          </div>
-      </footer><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script></body>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
 </html>
