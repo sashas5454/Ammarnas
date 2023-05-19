@@ -6,47 +6,11 @@
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
       <link rel="stylesheet" href="assets/css/main.css">
       <link rel="stylesheet" href="assets/css/desktop.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
       <style>
-        /* Style for carousel container */
-        .carousel-container {
+           .carousel-image {
           width: 550px;
-          height: 300px;
-          overflow: hidden;
-          position: relative;
-        }
-        
-        /* Style for carousel images */
-        .carousel-image {
-          width: 550px;
-          height: 100%;
-          object-fit: cover;
-        }
-        
-        /* Style for carousel navigation buttons */
-        .carousel-button {
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          width: 40px;
-          height: 40px;
-          background-color: rgba(0, 0, 0, 0.5);
-          color: #fff;
-          text-align: center;
-          line-height: 40px;
-          cursor: pointer;
-        }
-        
-        .carousel-button:hover {
-          background-color: rgba(0, 0, 0, 0.8);
-        }
-        
-        .prev-button {
-          left: 10px;
-        }
-        
-        .next-button {
-          right: 10px;
-        }
+         }
       </style>
    </head>
    <body>
@@ -60,39 +24,24 @@
          <a href="toplayer.html">Top Layer</a> |
       </nav>
       <main id="manuscript">
-         <div class="carousel-container">
-            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas1_frontcover.jpg" alt="Image 1">
-            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas2_titlepage.jpg" alt="Image 2">
-            <img class="carousel-image" src="docs/assets/img/tiff2jpg/Ammarnas3_Thankyou.jpg" alt="Image 3">
-            <div class="carousel-button prev-button" onclick="changeSlide(-1)">Prev</div>
-            <div class="carousel-button next-button" onclick="changeSlide(1)">Next</div>
-         </div>
+         <div class="carousel">
+             <div><img class="carousel-image" src="image1.jpg" alt="Image 1"></div>
+             <div><img class="carousel-image" src="image2.jpg" alt="Image 2"></div>
+             <div><img class="carousel-image" src="image3.jpg" alt="Image 3"></div>
+           </div>
 
-         <script>
-            var slideIndex = 1;
-            showSlide(slideIndex);
-
-            function changeSlide(n) {
-               showSlide(slideIndex += n);
-            }
-
-            function showSlide(n) {
-               var slides = document.getElementsByClassName("carousel-image");
-
-               if (n > slides.length) {
-                  slideIndex = 1;
-               }
-               if (n < 1) {
-                  slideIndex = slides.length;
-               }
-
-               for (var i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";
-               }
-
-               slides[slideIndex - 1].style.display = "block";
-            }
-         </script>
+           <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+           <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+           <script>
+             $(document).ready(function() {
+               $('.carousel').slick({
+                 slidesToShow: 1,
+                 slidesToScroll: 1,
+                 prevArrow: '<button type="button" class="slick-prev">Previous</button>',
+                 nextArrow: '<button type="button" class="slick-next">Next</button>'
+               });
+             });
+           </script>
       </main>
       <footer>
          <div class="row" id="footer">
