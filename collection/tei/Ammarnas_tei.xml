@@ -69,8 +69,8 @@
    <facsimile>
       <surface xml:id="Ammarnas2_titlepage">
          <figure>
-            <label>Ammarnas3_Thankyou</label>
-            <figDesc>Acknowledgments page</figDesc>
+            <label>Ammarnas2_titlepage</label>
+            <figDesc>Title page</figDesc>
             <graphic url="../docs/assets/img/tiff2jpg/Ammarnas2_titlepage.jpg"/>
             <graphic url="../docs/assets/img/Scans_in_tiff/Ammarnas2_titlepage.tif"/>
          </figure>
