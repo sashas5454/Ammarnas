@@ -43,17 +43,17 @@
                             <!-- first column: load the thumbnail image based on the IIIF link in the graphic above -->
                             <div class="col-">
                                 <article id="thumbnail">
-                                    <img>
-                                        <xsl:attribute name="src">
-                                            <xsl:value-of select="//tei:surface[@xml:id='postit01']//tei:graphic[@xml:id='postit01_thumb']/@url"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="title">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:label"/>
-                                        </xsl:attribute>
-                                        <xsl:attribute name="alt">
-                                            <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='postit01']//tei:figDesc"/>
-                                        </xsl:attribute>
-                                    </img>
+                                   <img width="500">
+                                    <xsl:attribute name="src">
+                                       <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']/tei:figure/tei:graphic[1]/@url"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']//tei:label"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas1_frontcover']//tei:figDesc"/>
+                                    </xsl:attribute>
+                                  </img>
                                 </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
