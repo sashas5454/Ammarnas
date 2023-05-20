@@ -55,6 +55,19 @@
                                     </xsl:attribute>
                                   </img>
                                 </article>
+                                <article id="thumbnail">
+                                   <img width="500">
+                                    <xsl:attribute name="src">
+                                       <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas2_titlepage']/tei:figure/tei:graphic[1]/@url"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="title">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas2_titlepage']//tei:label"/>
+                                    </xsl:attribute>
+                                    <xsl:attribute name="alt">
+                                        <xsl:value-of select="//tei:facsimile/tei:surface[@xml:id='Ammarnas2_titlepage']//tei:figDesc"/>
+                                    </xsl:attribute>
+                                  </img>
+                                </article>
                             </div>
                             <!-- second column: apply matching templates for anything nested underneath the tei:text element -->
                             <div class="col-md">
