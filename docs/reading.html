@@ -12,14 +12,14 @@
    </header>
    <nav id="sitenav">
       <a href="index.html">Home</a> |
-      <a href="diplomatic.html">Diplomatic Transcription</a> |
-      <a href="reading.html">Reading Text</a> |
-      <a href="toplayer.html">Top Layer</a> |
+      <a href="diplomatic.html">Transcription</a> |
+      <a href="reading.html">Images</a> |
+      <a href="toplayer.html">TEIandPDF</a> |
    </nav>
    <main id="manuscript">
       <div id="image-carousel" class="container">
          <div class="row">
-            <div class="col-xs-4">
+            <div class="col">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                   <ol class="carousel-indicators">
                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -101,58 +101,27 @@
             </div>
          </div>
       </div>
-      <div id="page-selection" class="container mt-4">
-         <h3>Select a Page:</h3>
-         <div class="row">
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(0)">Front Cover</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(1)">1</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(2)">2</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(3)">3</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(4)">4</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(5)">5</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(6)">6</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(7)">7</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(8)">8</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(9)">9</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(10)">10</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(11)">11</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(12)">12</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(13)">13</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(14)">14</button>
-            </div>
-            <div class="col">
-               <button class="btn btn-primary" onclick="selectPage(15)">Back cover</button>
-            </div>
-
+      <div class="col-xs-2">
+         <div id="page-selection" class="container mt-4">
+            <h3>Select a Page:</h3>
+               <div class="row">
+                 <button type="button" class="btn btn-primary" onclick="selectPage(0)">Front Cover</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(1)">Page 1</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(2)">Page 2</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(3)">Page 3</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(4)">Page 4</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(5)">Page 5</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(6)">Page 6</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(7)">Page 7</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(8)">Page 8</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(9)">Page 9</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(10)">Page 10</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(11)">Page 11</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(12)">Page 12</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(13)">Page 13</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(14)">Page 14</button>
+                 <button type="button" class="btn btn-primary" onclick="selectPage(15)">Back Cover</button>
+            </div>     
          </div>
       </div>
    </main>
@@ -162,10 +131,10 @@
             <div class="copyright_logos">
                <a href="https://creativecommons.org/licenses/by/4.0/legalcode">
                   <img src="assets/img/logos/cc.svg" class="copyright_logo" alt="Creative Commons License">
-                  <img src="assets/img/logos/by.svg" class="pl-2" alt="Attribution 4.0 International">
+                  <img src="assets/img/logos/by.svg" class="copyright_logo" alt="Attribution 4.0 International">
                </a>
             </div>
-            <div class="mt-2">
+            <div class="copyright_text">
                2023 Emilie Lindstrom and Sasha Spirkina.
             </div>
          </div>
