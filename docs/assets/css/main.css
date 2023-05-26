@@ -9,8 +9,6 @@ body {
 	}
 
 .image-wrapper {
-  display: inline-block;
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -18,8 +16,6 @@ body {
   max-width: 100%;
   height: auto;
 }
-
-
 
 h1, h2, h3, nav, footer {
     text-align: center;
