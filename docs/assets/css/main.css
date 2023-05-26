@@ -8,6 +8,12 @@ body {
   width: 100%;
 	}
 
+.image-wrapper img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
 h1, h2, h3, nav, footer {
     text-align: center;
 }
