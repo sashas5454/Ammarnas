@@ -39,28 +39,19 @@
             </article>
          </div>
       </div>
-   </main>
-     <section id="contact">
-      <div class="container">
-         <h2>Contact Us</h2>
-         <p>If you have any questions or inquiries, feel free to reach out to us.</p>
-         <form method="post" action="mailto:sashaspirkina1@gmail.com" enctype="text/plain">
-            <div class="form-group">
+      <h1>Contact Us</h1>
+       <div class="container">
+           <form action="contact.php" method="POST">
                <label for="name">Name:</label>
-               <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name">
-            </div>
-            <div class="form-group">
-               <label for="email">Email:</label>
-               <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email">
-            </div>
-            <div class="form-group">
-               <label for="message">Message:</label>
-               <textarea id="message" name="message" class="form-control" rows="5" placeholder="Enter your message"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-         </form>
-      </div>
-   </section>
+               <input type="text" id="name" name="name" placeholder="Your name.." required><br><br>
+
+               <label for="subject">Subject:</label>
+               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br><br>
+
+               <input type="submit" value="Submit">
+           </form>
+       </div>
+   </main>
    <footer>
       <div class="row" id="footer">
          <div class="col-sm copyright">
