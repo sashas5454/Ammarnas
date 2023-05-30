@@ -7,9 +7,27 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="assets/css/main.css">
-   <style>
+ <style>
       h2 {
          text-align: left;
+      }
+      
+      .section-box {
+         border: 1px solid #ccc;
+         padding: 10px;
+         margin-bottom: 20px;
+      }
+      
+      #form-container {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 100%;
+      }
+      
+      #google-form {
+         width: 640px;
+         height: 600px;
       }
    </style>
 </head>
@@ -27,28 +45,29 @@
    <main id="manuscript">
       <div class="container">
          <div class="col-sm">
-            <article id="TEI">
+            <article id="TEI" class="section-box">
                <h2>TEI File</h2>
                <p>Click <a href="https://github.com/sashas5454/Ammarnas/blob/main/collection/tei/Ammarnas_tei.xml">here</a> to see the TEI file.</p>
             </article>
             <br>
-            <article id="PDF">
+            <article id="PDF" class="section-box">
                <h2>PDF Files</h2>
                <p>Click <a href="../docs/assets/Ammarnas.pdf" download="Ammarnas.pdf">here</a> to download the PDF files.</p>
             </article>
             <br>
-            <article id="Repository">
+            <article id="Repository" class="section-box">
                <h2>Github Repository</h2>
                <p>Click <a href="https://github.com/sashas5454/Ammarnas">here</a> to view the Github repository for this project, including images in TIFF and JPEG, and the HTML code.</p>
             </article>
             <br>
-            <article id="DCHMTemplate">
+            <article id="DCHMTemplate" class="section-box">
                <h2>DCHM Template</h2>
                <p>The template for this website belongs to Wout Dillen and can be found <a href="https://github.com/WoutDLN/DCHM-template">here</a>.</p>
             </article>
             <h2>Contact Us</h2>
-            <p>If you have any questions or inquiries, please email Emilie Lindstrom at: s2207369@student.hb.se or Sasha Spirkina at: s2206748@student.hb.se. or fill out this form below.</p>
-            <iframe src="https://forms.gle/kTv4Aqikjdw626Ba6" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <div id="form-container">
+               <iframe id="google-form" src="https://forms.gle/kTv4Aqikjdw626Ba6" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            </div>
          </div>
       </div>
    </main>
