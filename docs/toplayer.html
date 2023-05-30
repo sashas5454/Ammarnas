@@ -7,6 +7,28 @@
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    <link rel="stylesheet" href="assets/css/main.css">
+   <style>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container h2 {
+            text-align: center;
+        }
+        .container label, .container input, .container textarea, .container input[type="submit"] {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .container input[type="submit"] {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,18 +61,21 @@
             </article>
          </div>
       </div>
-      <h1>Contact Us</h1>
-       <div class="container">
-           <form action="contact.php" method="POST">
-               <label for="name">Name:</label>
-               <input type="text" id="name" name="name" placeholder="Your name.." required><br><br>
-
-               <label for="subject">Subject:</label>
-               <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br><br>
-
-               <input type="submit" value="Submit">
-           </form>
-       </div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form method="post" action="contact.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
    </main>
    <footer>
       <div class="row" id="footer">
